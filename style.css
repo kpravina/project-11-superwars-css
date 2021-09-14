@@ -2,3 +2,44 @@
   margin-left : 80px;
   font-size : 18px;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  width:70vw;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 20px;
+ 
+}
+img{
+  height: 80px;
+  width: 70px;
+}
+.score{
+  text-align: center;
+  font-size:35px;
+}
+.layout{
+  height: 180px;
+  width: 120px;
+  border: 2px solid lightgrey;
+  border-radius: 5%;
+  padding: 20px;
+  text-align: center;
+}
